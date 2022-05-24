@@ -46,3 +46,26 @@ body{
 .card-stats__stat__heading{
     font-size: 1.4375rem;
 }
+
+/* Card rules */
+.card{
+    background-color: var(--secondary-bg-color);
+    border-radius: 8px;
+    max-width: 69.1875rem;
+    width: 80%;
+}
+
+.card-img{
+    background-blend-mode: overlay;
+    background-color: var(--accent-color);
+    background-image: url(../images/image-header-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+
+.card-body{
+    padding: var(--mobile-top-padding) var(--mobile-left-right-padding) var(--mobile-bottom-padding);
+    text-align: center;
+}
