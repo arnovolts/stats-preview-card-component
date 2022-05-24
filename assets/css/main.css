@@ -31,11 +31,16 @@ input{
     font: inherit;
 }
 
-/* Body rules */
-body{
+/* General rules */
+body,
+main{
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+/* Body rules */
+body{
     font-size: 0.9375rem;
     min-height: 100%;
 }
