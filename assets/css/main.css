@@ -6,7 +6,7 @@
     --main-bg-color: hsl(233, 47%, 7%);
     --paragraph-color: hsla(0, 0%, 100%, 0.75);
     --mobile-bottom-padding: 2.6em;
-    --mobile-left-right-padding: 2,33em;
+    --mobile-left-right-padding: 2.33em;
     --mobile-top-padding: 1.76em;
     --neutral: hsl(0, 0%, 100%);
     --secondary-bg-color: hsl(244, 38%, 16%);
@@ -35,14 +35,14 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: 0,9375rem;
+    font-size: 0.9375rem;
 }
 
 /* headings rules */
 .card-heading{
-    font-size: 1,5625rem;
+    font-size: 1.5625rem;
 }
 
 .card-stats__stat__heading{
-    font-size: 1,4375rem;
+    font-size: 1.4375rem;
 }
