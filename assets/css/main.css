@@ -6,7 +6,7 @@
     --main-bg-color: hsl(233, 47%, 7%);
     --paragraph-color: hsla(0, 0%, 100%, 0.75);
     --mobile-bottom-padding: 2.6em;
-    --mobile-left-right-padding: 2.33em;
+    --mobile-left-right-padding: 1.33em;
     --mobile-top-padding: 1.76em;
     --neutral: hsl(0, 0%, 100%);
     --secondary-bg-color: hsl(244, 38%, 16%);
@@ -39,6 +39,11 @@ main{
     justify-content: center;
 }
 
+/* Helper rules */
+.accent{
+    color: var(--accent-color);
+}
+
 /* Body rules */
 body{
     font-size: 0.9375rem;
@@ -47,10 +52,14 @@ body{
 
 /* headings rules */
 .card-heading{
+    color: var(--neutral);
+    font-family: Inter, sans-serif;
     font-size: 1.5625rem;
 }
 
 .card-stats__stat__heading{
+    color: var(--neutral);
+    font-family: Inter;
     font-size: 1.4375rem;
 }
 
@@ -75,4 +84,15 @@ body{
 .card-body{
     padding: var(--mobile-top-padding) var(--mobile-left-right-padding) var(--mobile-bottom-padding);
     text-align: center;
+}
+
+.card-main-text{
+    color: var(--paragraph-color);
+    font-family: Inter, sans-serif;
+}
+
+.card-stats__stat__text{
+    color: var(--paragraph-color);
+    font-family: 'lexend deca', sans-serif;
+    text-transform: uppercase;
 }
