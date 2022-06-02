@@ -55,12 +55,15 @@ body{
     color: var(--neutral);
     font-family: Inter, sans-serif;
     font-size: 1.5625rem;
+    margin-bottom: 23px;
 }
 
 .card-stats__stat__heading{
     color: var(--neutral);
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 1.4375rem;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 /* Card rules */
@@ -68,6 +71,7 @@ body{
     background-color: var(--secondary-bg-color);
     border-radius: 8px;
     max-width: 69.1875rem;
+    overflow-y: hidden;
     width: 80%;
 }
 
@@ -89,6 +93,12 @@ body{
 .card-main-text{
     color: var(--paragraph-color);
     font-family: Inter, sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.card-stats__stat + .card-stats__stat{
+    margin-top: 37px;
 }
 
 .card-stats__stat__text{
